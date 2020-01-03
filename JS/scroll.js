@@ -1,0 +1,3 @@
+window.scrollTo({
+  behavior: 'smooth'
+});

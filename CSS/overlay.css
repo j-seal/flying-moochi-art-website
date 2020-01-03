@@ -1,0 +1,75 @@
+/* COLOUR PALETTE
+    PINK/RED: #F76C6C
+    LIGHT BLUE: :#99CAE5
+    LIGHT INDIGO: #374785
+    INDIGO:  #24305E
+
+    TEAL: #34B484
+    YELLOW: #F8E9A1
+*/
+
+/* FONT
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Satisfy', cursive;
+*/
+
+
+/*OVERLAY*/
+.overlay {
+    overflow: hidden;
+	display:none;
+	position:fixed;
+	top:0;
+	height:100%;
+	width:100%;
+	background: #151d3a;
+	z-index:99;
+    opacity: 0.9;
+}
+
+.wrap {
+	text-align:center;
+	max-width:90%;
+	margin:0 auto;
+}
+
+.wrap ul.wrap-nav {
+	text-transform:capitalize;
+	padding:150px 0px 100px;
+}
+
+.wrap ul.wrap-nav li {
+	font-size:45px;
+    font-family: 'Satisfy', cursive;
+	display:inline-block;
+	vertical-align:top;
+	width:24%;
+	position:relative;
+}
+
+.wrap ul.wrap-nav li a {
+	color: #F76C6C;
+	display:block;
+	padding:8px 0;
+	text-decoration:none;
+	transition-property:all .2s linear 0s;
+	-moz-transition:all .2s linear 0s;
+	-webkit-transition:all .2s linear 0s;
+	-o-transition:all .2s linear 0s;
+}
+
+.wrap ul.wrap-nav ul {
+	padding:20px 0;
+}
+.wrap ul.wrap-nav ul li {
+	display:block;
+	width:100%;
+}
+.wrap ul.wrap-nav ul li a {
+	color: antiquewhite;
+    font-size:22px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.wrap ul.wrap-nav ul li a:hover {
+	color: white;
+}

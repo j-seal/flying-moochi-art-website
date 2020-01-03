@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>CS Designs</title>
+        
+        <!--ICONS-->
+        <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicon/favicon-16x16.png">
+        <link rel="manifest" href="Images/Favicon/site.webmanifest">
+        <link rel="mask-icon" href="Images/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00aba9">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!--META TAGS-->
+        <meta charset="utf-8">
+        <meta name="description" content="Artist portfolio for Cassandra Seal">
+        <meta name="keywords" content="art, artwork, webtoon, commission, bookmarks, portfolio, Cassandra Seal, Seal, freelance, designer">
+        <meta name="author" content="Jacqueline Seal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Satisfy|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        
+        <!--SCRIPTS-->
+        <script src="JS/lightbox.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
+        <!--TO INCLUDE?-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <!--BOOTSTRAP-->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!--BAGUETTE BOX-->
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        
+        <!--Stylesheets-->
+        <link type="text/css" rel="stylesheet" href="CSS/style.css">
+        <link type="text/css" rel="stylesheet" href="CSS/overlay.css">
+        
+        <!--Smooth Scroll-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        
+        <!--Miscellaneous-->
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a class="navbar-brand" href="index.html">CS Designs</a>
+            <ul>
+                <li><a href="#bio">BIO</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="button" id="toggle" onClick="on()">
+                <div  id="nav-icon4">
+                  <span class="bar top"></span>
+                  <span class="bar middle"></span>
+                  <span class="bar bottom"></span>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="overlay" id="overlay"  onclick="off()">
+            <div class="wrap">
+                <ul class="wrap-nav">
+                    <li><a href="#">CS Designs</a>
+                        <ul>
+                            <li><a href="#bio" class="overlay-a"> BIO</a></li>
+                            <li><a href="#portfolio" class="overlay-a">PORTFOLIO</a></li>
+                            <li><a href="#contact" class="overlay-a">CONTACT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <script src="JS/scroll.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="JS/overlay.js"></script>
+        
+        <div class="jumbotron wow fadeIn" data-wow-delay="0.5s" style="background: linear-gradient(to right, #374785,  white); background-size: 100% 100%; margin-bottom: 0;">
+            <div class="container">
+                <div class="col-xs-6 exp">
+                    <div class="padder">
+                        <h3><span style="color: #f79b9b; font-size: 20px;"><b>Cassandra Seal</b></span>&nbsp;&nbsp;&nbsp; Freelance Artist &amp; Designer 🎨</h3>
+                        <div class="typing-holder">
+                            <h1 data-wow-delay="1s">Art is <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
+                        </div>
+                        <script src="JS/typing.js"></script>
+                    </div>
+                </div>
+                <div class="col-xs-6 delete">
+                    <div data-aos="fade-down">
+                        <img class="jumbo-img" src="Images/mandala.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <div class="down-arrow-holder">
+            <a class="down-arrow" href="#bio"><i class="fa fa-angle-double-down"></i></a>
+        </div>
+        
+        <div class="container" id="bio">
+            <div class="content">
+                <div class="title">
+                    <h2><a href="" class="main-title">Artist Bio</a></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div data-aos="fade-right">
+                        <div class="text-holder">
+                            <p class="normal-txt"> 
+                                Cassandra Seal is a freelance artist located in Calgary&#44; Canada. She works with a plethora of artistic mediums, ranging from oil paint to digital art tools. She loves exploring new project ideas and artistic modes. 
+                            </p>
+                            <p class="normal-txt"> 
+                                Despite her quiet demeanour, Cassandra is arguably the loudest of her siblings. When she is not listening to true crime podcasts, Cassandra can be found reading webtoons or doodling caricatures. Not only does she appreciate art, but Cassandra also enjoys rainy days, and takes frequent walks during thunderstorms. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div data-aos="zoom-in-up">
+                        <img src="Images/cassandra.jpg" alt="" class="circle-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" id="portfolio">
+            <div class="content">
+                <div class="title">
+                    <h2><a href="" class="main-title">Portfolio</a></h2>
+                </div>
+            </div>
+        </div>
+                
+         <div class="container">
+            <div class="container gallery-container">
+                <div class="tz-gallery">
+
+                    <div data-aos="fade-up">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/butterflyHand.jpeg">
+                                        <img src="Images/Icons/butterflyHand-icon.jpeg" alt="Park" class="card-img-top img-port hover">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Monarch
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Watercolour<br>21 cm x 25 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/iceFace.jpeg">
+                                        <img src="Images/Icons/iceFace-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Hypothermia
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Watercolour<br>21 cm x 25 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/leafFace.jpeg">
+                                        <img src="Images/Icons/leafFace-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Perspective
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Watercolour<br>21 cm x 25 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                     <div data-aos="flip-left">
+                          <div class="row"> 
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/nostalgia.jpeg">
+                                        <img src="Images/Icons/nostalgia-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Nostalgia
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Pencil<br>21 cm x 25 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/depression.jpeg">
+                                        <img src="Images/Icons/depression-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Churchill's Dog
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Acrylic Paint<br>50 cm x 70 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/eagle.jpeg">
+                                        <img src="Images/Icons/eagle-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Birds of a Feather
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Graphite<br>21 cm x 25 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="zoom-in-left">
+                    
+                        <div class="row"> 
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/pandaCartoon.jpeg">
+                                        <img src="Images/Icons/pandaCartoon-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                BAMBOO-zled
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Copic Marker<br>8 cm x 15 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/catFace.jpeg">
+                                        <img src="Images/Icons/catFace-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Crookshanks
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Copic Marker<br>8 cm x 15 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/fishCartoon.jpeg">
+                                        <img src="Images/Icons/fishCartoon-icon.jpeg" alt="Park" class="card-img-top">
+                                        
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                NEMO
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Copic Marker<br>8 cm x 15 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="flip-left">
+                    
+                        <div class="row"> 
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/flowerBookmark.jpeg">
+                                        <img src="Images/Icons/flowerBookmark-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Sunflower &amp; Poppy
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Copic Marker<br>20 cm x 15 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/flowerBookmark2.jpeg">
+                                        <img src="Images/Icons/flowerBookmark2-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Caterpillar Fodder
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Watercolour<br>20 cm x 15 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <a class="lightbox" href="Images/newAgeVelma.jpeg">
+                                        <img src="Images/Icons/newAgeVelma-icon.jpeg" alt="Park" class="card-img-top">
+                                        <div class="overlay-img">
+                                            <div class="centered-txt">
+                                                Bubbles &amp; Bunnies
+                                            </div>
+                                            <hr class="img-hr">
+                                            <div class="img-info">
+                                                Copic Marker<br>10 cm x 15 cm
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
+
+        <script>
+          AOS.init();
+        </script>
+
+        <div class="container" id="contact">
+            <div class="content">
+                <div class="title">
+                    <h2><a href="" class="main-title">Contact Me</a></h2>
+                </div>
+                <div class="text-holder">
+                    <p class="normal-txt">
+                        Whether you're interested in commissioning artwork or just want to get in touch, please feel free to send me a message! I'm always open to suggestions & feedback!
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                        <div data-aos="fade-right">
+                            <form  class="contact-form" onsubmit="alert('Thank You!');  document.getElementById('review').reset(); return false;">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <label for="name" class="">Your name</label>
+                                            <input type="text" id="name" name="name" class="form-control form-txt" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <label for="email" class="">Your email</label>
+                                            <input type="text" id="email" name="email" class="form-control form-txt" placeholder="name@example.com" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <label for="subject">Subject</label>
+                                            <input type="text" id="subject" name="subject" class="form-control form-txt" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form">
+                                            <label for="message">Your message</label>
+                                            <textarea id="message" name="message" rows="2" cols="5" class="form-control md-textarea form-txt" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center text-md-left">
+                                    <input type="submit" class="submit" value="Send">
+                                </div>
+                            </form>
+                        <div class="status"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <div data-aos="fade-left">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fas fa-map-marker-alt fa-2x icon"></i>
+                                    <p class="info">Calgary&#44; AB&#44; Canada</p>
+                                </li>
+
+                                <li><i class="fas fa-phone mt-4 fa-2x icon"></i>
+                                    <p class="info"> 587 - 577 - 1691</p>
+                                </li>
+
+                                <li><i class="fas fa-envelope mt-4 fa-2x icon"></i>
+                                    <p class="info">cassandrarseal@gmail.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+        </div>
+        </div>
+        
+        <footer class="page-footer font-small cyan darken-3">
+
+          <!-- Footer Elements -->
+          <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-12 py-5">
+                <div class="mb-5 flex-center">
+
+                  <!--Deviant Art-->
+                  <a class="ins-ic" href="https://www.deviantart.com/csealdesigns" target="_blank">
+                      <i class="fab fa-deviantart fa-lg white-text mr-md-5 mr-3 fa-2x icon"></i>
+                  </a>
+                    
+                    
+                    <!--Instagram-->
+                  <a class="ins-ic" href="http://www.instazu.com/profile/flying_moochi" target="_blank">
+                    <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x icon"> </i>
+                  </a>
+                    
+                  <!--Pinterest-->
+                  <a class="pin-ic" href="https://www.pinterest.ca/csealDesigns/" target="_blank">
+                    <i class="fab fa-pinterest fa-lg white-text fa-2x  icon"> </i>
+                  </a>
+                </div>
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+          </div>
+          <!-- Footer Elements -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3 copy">© 2019 - Made with ❤️ by
+            <a class="designer" href="https://github.com/j-seal" target="_blank">Jacqueline Seal</a>
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+    </body>
+</html>
